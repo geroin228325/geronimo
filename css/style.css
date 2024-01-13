@@ -1,0 +1,269 @@
+* {
+    margin:0;
+    padding: 0;
+}
+html,body {
+  height: 100%;
+}
+header, main, footer {
+    width: 1040px;
+    margin: 0 auto;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+header{
+    height:120px;
+    margin-top: 20px;   
+}
+main{
+    padding-bottom: 100px;
+    margin-top: 90px;
+}
+body{
+    background-color: #330161;
+    color: white;
+}
+.main_img-float{
+    width: 550px;
+    margin-right: 40px;
+    float: left;
+}
+#panorama{
+    width:100%;
+    height:150px;
+    background:url(../img/gorodsverhu.jpg)no-repeat center 70%;
+    background-size:cover; /*масштабирование фона*/
+}
+.servece_img{
+    width: 240px;
+}
+.servece_item{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 240px;
+    float: left;
+}
+.serveces{
+    padding: 35px;
+    border: black 5px;
+}
+.clearfix::after{
+    content:" ";
+    display:table;
+    clear: both;
+}
+.h1_invisible{
+    visibility: hidden;
+}
+.comanda{
+    margin-left: 150px;
+    text-align: center;
+    width: 700px;
+}
+.contacti{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.telephon{
+    margin-top: 15px;
+}
+.adress{
+    margin-top: 15px;
+}
+.socseti{
+    margin-top: 15px;
+}
+.write{
+    margin-top: 15px;
+    
+}
+.contacti p{
+    color: deeppink;
+}
+/* .SiteVizitka{
+    display: flex;
+} */
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.main p{
+    font-size: 21px;
+}
+.site{
+    margin-right: 5px;
+    color: deeppink;
+}
+.vizit{
+    margin-right: 100px;
+}
+.uslugi{
+    margin-right: 50px;
+}
+.onas{
+    margin-right: 50px;
+}
+.klients{
+    margin-right: 50px;
+}
+.kontakti{
+    margin-right: 50px;
+}
+.mainheader{
+    margin-right: 50px;
+}
+.dream{
+    display: flex;
+    flex-direction: row;
+}
+.company{
+    margin-right: 9px;
+    color: deeppink;
+}
+.uslugibottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+.mainbottom{
+    /* margin: -100px auto 0; */
+    margin-top: -113px;
+    position: relative;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contactbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 180px;
+}
+.onasbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 137px;
+}
+.our_kl{
+    display: flex;
+    justify-content: center;
+}
+.our{
+    color: deeppink;
+}
+.client{
+    margin-left: 10px;
+}
+.our_client{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cards{
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+}
+.klientbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 312px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.link{
+    color: deeppink;
+}
+.usluga{
+    font-weight: bold;
+    /* font-size: 20px; */
+}
+.servece_img{
+    height: 190px;
+    width: 260px;
+}
+a:hover{
+    color: deeppink;
+}
+.gabrusha{
+    width: 10px;
+    height: 10px;
+}
+.contacti p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+table{
+    border: 3px solid deeppink;
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid white;
+    border-collapse: collapse;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+.price th:first-child{
+    width: 10%;
+}
+.price th:nth-child(2) .price th:last-child{
+    width: 25%;
+}
+.price th:nth-child(){
+    background-color: aqua;
+}
+.t0, .t2{
+    background-color: darkmagenta;
+}
+.t1, .t3{
+    background-color: crimson;
+}
+.formabottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sum{
+    width:200px;
+    height: 50px;
+    background-color: #8400ff;
+    color: #e6cbff;
+    border: 0px;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px;
+}
+/* label{
+    font-size: 20px;
+} */
+.form_item{
+    font-size: 20px;
+    border: 0px;
+}
+input, textarea, option, select{
+    font-size: 15px;
+    color: black;
+    background-color: #e6cbff;
+    border: 0px;
+}
+option:hover{
+    background-color: #8400ff;
+}
